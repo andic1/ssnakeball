@@ -1,9 +1,14 @@
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/bc8af0b9-2e0a-4f73-90a8-5d7a6cd8253a" />
+
+SNAKEBALL
 ## 项目简介
 SNAKEBALL是一个休闲网页小游戏，在游戏中，玩家可以操控一条由球体组成的小蛇、在屏幕范围内随意移动，<br>
 小蛇的身体每隔随机的时间会进行重置：小蛇的移动速度、以及身体的延迟都会发生改变，<br>
 在关卡时间里，屏幕内会出现各种各样的子弹球，玩家需要根据情况来“吃”或者“碰撞”它们，并获得一定的分数，以计入排行榜。<br>
 
 <br>
+“本项目由阿里云ESA提供加速、计算和保护”
+<img width="7534" height="844" alt="image" src="https://github.com/user-attachments/assets/ea8fee92-691a-4c4c-8080-8ca2497d5548" />
 
 ## 本地运行与构建
 1. 初始化node_modules，构建项目
@@ -18,16 +23,7 @@ SNAKEBALL是一个休闲网页小游戏，在游戏中，玩家可以操控一�
    npm run serve
    ```
 
-3. 将项目打包成静态网页
 
-   ```sh
-   npm run build
-   ```
-   
-4. 所有代码的中文注释已全部添加，因为作者是第一次做 WEB 游戏，所以有的地方难免存在不合理的代码和 BUG，还请见谅。
-5. 项目原本依赖的线上后端与数据库在本地版本中已去除，当前版本只保留前端单机玩法（排行榜请求不会生效，但不影响游戏体验）。
-6. 交互界面主要在 `src/components/sections`，游戏主逻辑在 `src/components/game/stage`，如果需要二次开发可以从这两个目录入手。
-<br>
 
 ## 🎨 Color reference
 | Color         | Hex      | Block
